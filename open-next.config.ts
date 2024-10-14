@@ -11,7 +11,7 @@ const config = {
       patterns: ['api/*'],
       // For app dir, you need to include route|page, no need to include layout or loading
       // It needs to be prepended with app/ or pages/ depending on the directory used
-      routes: ['app/api/tensor/route'],
+      routes: ['app/api/tensor/route', 'app/api/tensor/version/route'],
     },
   },
 } satisfies OpenNextConfig;
