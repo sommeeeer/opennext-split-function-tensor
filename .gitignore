@@ -46,7 +46,7 @@ next-env.d.ts
 .sst
 
 # open-next
-.open-next/*
+.open-next
 !/open-next/server-functions/
 !/open-next/server-functions/**
 
